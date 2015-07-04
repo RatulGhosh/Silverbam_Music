@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_music">Music</string>
+    <string name="title_activity_meta_data">MetaData</string>
+    <string name="title_activity_drawer_lay">DrawerLay</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+
+    <string-array name="Sort">
+        <item>Sort by A-Z</item>
+        <item>Sort by Z-A</item>
+        <item>Shuffle</item>
+    </string-array>
+    <string-array name="Drawerlist">
+        <item>All Songs</item>
+        <item>Music Player</item>
+        <item>My Favourites</item>
+        <item>Settings</item>
+        <item>About</item>
+        <item>Exit</item>
+    </string-array>
+
+    <string name="title_activity_about">About</string>
+
+</resources>

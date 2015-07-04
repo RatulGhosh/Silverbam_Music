@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/omi1"
+        android:title="Setting"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_preferences" />
+    <item 
+        android:id="@+id/omi2"
+        android:title="Details"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_dialog_info" />
+    <item 
+        android:id="@+id/omi4"
+        android:title="Exit"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_delete" />
+
+</menu>

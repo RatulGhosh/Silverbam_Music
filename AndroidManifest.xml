@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sdread"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/musicicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Music"
+            android:label="@string/title_activity_music" >
+        </activity>
+        <activity
+            android:name=".MetaData"
+            android:label="@string/title_activity_meta_data" >
+        </activity>
+        <activity
+            android:name=".DrawerLay"
+            android:label="silverbam music" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SettingPage" />
+
+        <receiver android:name=".ReceiveBroadcast" >
+            <intent-filter>
+                <action android:name="com.Music.BROADCAST" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>
